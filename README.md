@@ -6,6 +6,7 @@ Copier la 2e ligne (ie le sudoku généré sous forme de ligne) (ex : 64.8.....9
 Executer la fonction solveur_sudoku('[sudoku généré]') (résolution avec déduction des valeurs isolées) ou solveur_sudoku2('[sudoku généré]') (sans déduction des valeurs isolées) 
 
 Par exemple : solveur_sudoku('64.8.....91.....8..876.9.24....7.8.......4......9..16..7.4..3.......7.1..9.1.8.7.,27,41,13,3,0,0,0,0,0,Intermediate,') affiche sur la console :
+
 Sudoku initial :
 
 |   |   |   |   |   |   |   |   |   |
