@@ -30,13 +30,13 @@ def copier_sudoku(SUDOKU):#fait une copie profonde du sudoku
     return Li
 
 
-def coords_ligne(i):#coordonnée des cases de la ieme ligne
+def coords_ligne(i):#coordonnées des cases de la ieme ligne
     return [(i, k) for k in range (9)]
 
-def coords_colonne(i):#coordonnée des cases de la ieme colonne
+def coords_colonne(i):#coordonnées des cases de la ieme colonne
     return [(k,i) for k in range (9)]
 
-def coords_bloc(num):#coordonnée des cases du num-ième bloc
+def coords_bloc(num):#coordonnées des cases du num-ième bloc
     L=[]
     i_init=(num//3)*3
     j_init=(num%3)*3
@@ -129,7 +129,7 @@ def statut(SUDOKU):
     
     return 2, 'fini'
 
-def resoudre(SUDOKU):#résout récurssivement le SUDOKU
+def resoudre(SUDOKU):#résout récursivement le SUDOKU
     deduire_tout(SUDOKU)
     etat=statut(SUDOKU) 
     if etat[0] == 1:
