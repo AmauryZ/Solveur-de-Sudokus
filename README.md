@@ -1,3 +1,5 @@
+Solveur de sudokus utilisant deux méthodes différentes (avec et sans déduction des valeurs possibles).
+
 Utilisation du programme :
 
 Générer un sudoku à l'aide du site https://qqwing.com/generate.html en choisissant csv comme format de sortie ('Output format'). 
